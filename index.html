@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="theme-color" content="rgb(106, 0, 128)" />
-    <title>My first Vanilla App for KaiOS</title>
-    <link rel="stylesheet" type="text/css" href="/src/css/header.css" />
-    <link rel="stylesheet" type="text/css" href="/src/css/input.css" />
-    <link rel="stylesheet" type="text/css" href="/src/css/softkey.css" />
-    <link rel="stylesheet" type="text/css" href="/src/css/todos.css" />
-    <link rel="stylesheet" type="text/css" href="/src/css/root.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate App</title>
+    <link rel="stylesheet" type="text/css" href="src/css/header.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/softkey.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/root.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/buttons.css" /> 
   </head>
 
   <body>
     <div id="root">
       <header>
-        <span>ToDo List</span>
+        <span><strong>Dashboard</strong></span>
       </header>
 
-      <div class="input">
-        <input type="text" nav-selectable="true" autofocus />
-        <label>New task</label>
+      <div class="forecast">
+        <label><a href="forecast.html">Weather Forecast</a></label>
       </div>
 
-      <div id="toDos" class="todos"></div>
-
-      <div id="softkey">
-        <label id="left"></label>
-        <label id="center">Insert</label>
-        <label id="right"></label>
+      <div id="seasons" class="plant_season">
+        <label>Planting Seasons: </label>
+        <ol>
+            
+            <button class="btn info" ><a href="Autumn.html" class="button" target="blank">Autumn</a></button>
+          
+          <a href="Spring.html"><button class="btn info">Spring</button></a>
+            <a href="Summer.html"><button class="btn info">Summer</button></a>
+            <a href="Winter.html"><button class="btn info">Winter</button></a>
+		
+          
+        </ol>
+        
       </div>
-    </div>
-    <script src="/src/index.js"></script>
+
+     
+
+
   </body>
 </html>

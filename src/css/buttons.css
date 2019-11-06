@@ -1,0 +1,20 @@
+.btn {
+    border: solid; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+  
+  }
+  .info.a{
+    color: white;
+  }
+  
+  
+  .info {background-color: #2196F3;} /* Blue */
+  .info:hover {background: #dad70b;}
+  
+  

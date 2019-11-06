@@ -1,0 +1,16 @@
+a{
+
+text-decoration: none;
+}
+a:hover{
+background: #2196F3;
+}
+.seasons{
+    text-decoration: none;
+    color: white;
+}
+th{
+    text-decoration: none;
+    text-align: center;
+    background-color: yellow;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/src/css/color.css" />
+    <title>FramersApp</title>
+</head>
+<body >
+ 
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url("spring.jpg");
+}
+
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Style the footer */
+footer {
+ position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+ 
+<center><p1> Crops for Spring</p1></center>
+<a href="Cowpeas.html"><p style ="text-align:left;">Cowpeas</p></a>  
+  <a href="mahangu.html"><p style ="text-align:left;">Pearl Millet/mahangu</p></a>
+  <a href="Groundnuts.html"><p style ="text-align:left;">Groundnuts</p></a>
+  
+	<a href="index.html"><p1 style ="text-align:left;">Back</p1></a>
+<footer>
+  <p1>Farmer'sApp</p1>
+</footer>
+</body>
+</html>

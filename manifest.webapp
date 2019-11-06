@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "My first Vanilla App for KaiOS",
+  "name": "My first App",
   "description": "Simple example of a to-do list",
   "type": "web",
   "launch_path": "/index.html",
